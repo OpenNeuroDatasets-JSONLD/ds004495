@@ -1,0 +1,21 @@
+{
+    "Name": "Episodic and Semantic Memory fMRI Dataset",
+    "BIDSVersion": "1.2.1",
+    "License": "",
+    "Authors": [
+        "Roni Tibon",
+        "Andrea Greve",
+        "Gina Humphries",
+        "Alexander J. Quent",
+        "Rik Henson"
+    ],
+    "Acknowledgments": "",
+    "HowToAcknowledge": "",
+    "Funding": [
+        ""
+    ],
+    "ReferencesAndLinks": [
+        ""
+    ],
+    "DatasetDOI": ""
+}
