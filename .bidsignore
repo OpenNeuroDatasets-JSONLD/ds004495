@@ -1,1 +1,3 @@
-"ignoredFiles": [ "/behavdata/**" ]
+{
+	"ignoredFiles": ["/behavdata/**"]
+}
