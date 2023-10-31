@@ -1,33 +1,43 @@
-You should replace the content of this file and describe your dataset.
+This dataset was obtained from the OpenNeuro project (https://www.openneuro.org). Accession #: ds004495
 
----
+Description: Episodic and Semantic Memory fMRI Dataset
 
-BIDS Specification: https://bids-specification.readthedocs.io/en/stable/
+Authors:
+Roni Tibon
+Andrea Greve
+Gina Humphreys
+Alexander J. Quent
+Rik Henson
 
----
+Please cite the following reference if you use these data:
 
-BIDS directory overview
-https://bids-specification.readthedocs.io/en/stable/02-common-principles.html#single-session-example
+     XXX
 
----
+Additional information related to the project, including accepted version of Stage 1 protocol, is available on https://osf.io/dm47y/ 
 
-participants.tsv and participants.json
-https://bids-specification.readthedocs.io/en/stable/02-common-principles.html#tabular-files
-https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html#participants-file
+==================================================================================
 
----
+func/
+-----
+Two session for each participants: 
+	ses-EP:  Episodic task
+	ses-SEM: Semantic task + Control task 
 
-dataset_description.json
-https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html#dataset_description
+For each task: 
+	Multiple runs (3 for EP and 2 for SEM/VIS)
+	4 echos  
 
----
 
-README
-https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html#readme
+anat/
+-----
+Anatomical preprocessed data are located under /derivatives. These are defaced and normalised T1 images (for GDPR compliance).   
 
----
 
-CHANGES
-https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html#changes
+behavdata/
+----------
+Behavioural data from the study phase (EP+SEM), test phase (all tasks), and debriefing phase (EP) 
 
----
+ 
+Known Issues
+------------
+N/A
