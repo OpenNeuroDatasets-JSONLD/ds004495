@@ -53,12 +53,20 @@ Missing behavioural data (all from non-scanned parts of the study), due to compu
 
 
 Subject		Missing file(s)
+
 -------		---------------
+
 402		SemStudy
+
 405		EpStudy; DebStudy
+
 410		SemStudy
+
 420		EpStudy
+
 422		EpStudy; SemStudy
+
 424		SemStudy
+
 439		EpStudy		
 
