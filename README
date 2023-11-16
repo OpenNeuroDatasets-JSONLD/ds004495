@@ -2,7 +2,7 @@ This dataset was obtained from the OpenNeuro project (https://www.openneuro.org)
 
 Description: Episodic and Semantic Memory fMRI Dataset
 
-Authors: Roni Tibon, Andrea Greve, Gina Humphreys, Alexander J. Quent, Rik Henson, 
+Authors: Roni Tibon, Andrea Greve, Gina Humphreys, Alexander J. Quent, Rik Henson 
 
 Please cite the following reference if you use these data:
 
@@ -49,5 +49,16 @@ Known Issues
 
 ------------
 
-N/A
+Missing behavioural data (all from non-scanned parts of the study), due to computer upgrade prior to their extraction:
+
+
+Subject		Missing file(s)
+-------		---------------
+402		SemStudy
+405		EpStudy; DebStudy
+410		SemStudy
+420		EpStudy
+422		EpStudy; SemStudy
+424		SemStudy
+439		EpStudy		
 
