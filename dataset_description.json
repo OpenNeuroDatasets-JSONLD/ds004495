@@ -1,7 +1,7 @@
 {
     "Name": "Episodic and Semantic Memory fMRI Dataset",
     "BIDSVersion": "1.2.1",
-    "License": "",
+    "License": "CC0",
     "Authors": [
         "Roni Tibon",
         "Andrea Greve",
@@ -17,5 +17,5 @@
     "ReferencesAndLinks": [
         ""
     ],
-    "DatasetDOI": ""
+    "DatasetDOI": "doi:10.18112/openneuro.ds004495.v1.0.0"
 }
